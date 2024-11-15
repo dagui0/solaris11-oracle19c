@@ -44,7 +44,7 @@
  ![설치 화면 21 - 시간 설정](images/solaris-install-21.png)
 * 키보드 설정   
  ![설치 화면 22 - 키보드 설정](images/solaris-install-22.png)
-* 사용자 설정 - 여기서 `root` 비밀번호 뿐만 아니라 일반 사용자를 반드시 생성해야 한다. `root`는 로그인 화면에서 직접 로그인을 할 수 없음. 여기서 추가한 사용자는 `sudo` 명령을 자유롭게 사용할 수 있다. (`/etc/sudoers.d/svc-config-user`)   
+* 사용자 설정 - 여기서 `root` 비밀번호 뿐만 아니라 일반 사용자를 반드시 생성해야 한다. `root`는 로그인 화면에서 직접 로그인을 할 수 없음. 여기서 추가한 사용자는 `sudo` 명령을 자유롭게 사용할 수 있다. (`/etc/sudoers.d/svc-system-config-user`)   
  ![설치 화면 23 - 사용자 설정](images/solaris-install-23.png)
 * 지원 서비스 등록 - 안함   
  ![설치 화면 24 - 지원 서비스 등록](images/solaris-install-24.png)

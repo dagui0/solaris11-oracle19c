@@ -1,0 +1,11 @@
+
+# source /etc/profile.d/*.sh
+export PATH=/usr/bin
+if [ 10 -eq 10 ]; then # group staff
+    PATH=$PATH:/usr/sbin
+fi
+if [ -d /etc/profile.d ]; then
+    for sh in /etc/profile.d/*.sh; do
+        . $sh
+    done
+fi
